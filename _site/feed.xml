@@ -3,11 +3,28 @@
   <channel>
     <title>Murugesh Marvel</title>
     <description>My Personal Blog</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Dec 2017 12:17:59 +0530</pubDate>
-    <lastBuildDate>Fri, 08 Dec 2017 12:17:59 +0530</lastBuildDate>
+    <link>http://localhost:3000/</link>
+    <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 08 Dec 2017 14:27:28 +0530</pubDate>
+    <lastBuildDate>Fri, 08 Dec 2017 14:27:28 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Hi Everyone</title>
+        <description>&lt;p&gt;Hello Everyone, I know this is late&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Dec 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:3000/blog/2017/Hi-Everyone/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2017/Hi-Everyone/</guid>
+        
+        <category>welcome</category>
+        
+        <category>personal</category>
+        
+        
+        <category>welcome</category>
+        
+      </item>
     
   </channel>
 </rss>
