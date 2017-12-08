@@ -8,7 +8,7 @@ require "jekyll"
 GITHUB_REPONAME = "MurugeshMarvel/murugeshmarvel.github.io"
 GITHUB_REPO_BRANCH = "master"
 
-SOURCE = "source/"
+#SOURCE = "source/"
 DEST = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
