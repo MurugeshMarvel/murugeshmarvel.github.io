@@ -8,7 +8,7 @@ paginate: 3
 paginate_path: "/blog/page/:num/"
 comments: true
 
-#source: source
+source: source
 destination: _site
 sass:
   sass_dir: _sass
@@ -18,7 +18,7 @@ sass:
 title: Murugesh Marvel
 description: "My Personal Blog"
 keywords: "Technology, Adventures, Coding, AI, Crazy_things"
-#url: http://murugeshmarvel.github.io
+url: http://murugeshmarvel.github.io
 #baseurl: "/end2end"
 
 #google_analytics: UA-52446115-1
@@ -40,7 +40,6 @@ author:
   linkedin: https://linkedin.com/in/murugeshmarvel
 
 # navbar pages
-port: 3000
 navbar:
   - slug: about
     title: About
@@ -48,4 +47,3 @@ navbar:
     title: Blog
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
-gems: [bourbon]
