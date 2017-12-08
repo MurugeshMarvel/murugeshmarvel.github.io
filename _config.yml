@@ -40,6 +40,7 @@ author:
   linkedin: https://linkedin.com/in/murugeshmarvel
 
 # navbar pages
+port: 3000
 navbar:
   - slug: about
     title: About
