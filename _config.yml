@@ -1,0 +1,49 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Murugesh Marvel
+description: "My Personal Blog"
+keywords: "Technology, Adventures, Coding, AI, Crazy_things"
+url: http://murugeshmarvel.github.io
+#baseurl: "/end2end"
+
+#google_analytics: UA-52446115-1
+repo: https://github.com/MurugeshMarvel/murugeshmarvel.github.io
+#disqus_shortname: "M"
+#disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: Murugesh Marvel
+  job: Owner of Crazy Brains
+  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb: /images/muru.png
+  email: murugesh@hyoristicin.com
+  url: https://hyoristicin.com
+  github: https://github.com/murugeshmarvel
+  twitter: https://twitter.com/murugeshMarvel
+  facebook: https://facebook.com/murugesan.vadivel.3
+  linkedin: https://linkedin.com/in/murugeshmarvel
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
