@@ -3,10 +3,10 @@
   <channel>
     <title>Murugesh Marvel</title>
     <description>My Personal Blog</description>
-    <link>http://localhost:3000/</link>
-    <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Dec 2017 11:51:36 +0530</pubDate>
-    <lastBuildDate>Fri, 08 Dec 2017 11:51:36 +0530</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 08 Dec 2017 12:11:14 +0530</pubDate>
+    <lastBuildDate>Fri, 08 Dec 2017 12:11:14 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
   </channel>
