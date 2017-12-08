@@ -18,7 +18,7 @@ sass:
 title: Murugesh Marvel
 description: "My Personal Blog"
 keywords: "Technology, Adventures, Coding, AI, Crazy_things"
-url: http://murugeshmarvel.github.io
+#url: http://murugeshmarvel.github.io
 #baseurl: "/end2end"
 
 #google_analytics: UA-52446115-1
