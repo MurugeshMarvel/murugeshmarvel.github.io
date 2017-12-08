@@ -5,10 +5,10 @@ require "bundler/setup"
 require "jekyll"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "nandomoreirame/end2end"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPONAME = "MurugeshMarvel/murugeshmarvel.github.io"
+GITHUB_REPO_BRANCH = "master"
 
-SOURCE = "source/"
+SOURCE = ""
 DEST = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
