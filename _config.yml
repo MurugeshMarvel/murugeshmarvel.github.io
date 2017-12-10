@@ -8,7 +8,7 @@ paginate: 3
 paginate_path: "/blog/page/:num/"
 comments: true
 
-source: 
+source:
 destination: _site
 sass:
   sass_dir: _sass
@@ -30,7 +30,7 @@ repo: https://github.com/MurugeshMarvel/murugeshmarvel.github.io
 author:
   name: Murugesh Marvel
   job: Owner of Crazy Brains
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  bio: "Visionary, Coder, AGI Enthusiast, AI Researcher, Traveller(Wanderer), Blogger, entrepreneur, Biriyani Lover"
   thumb: /images/muru.png
   email: murugesh@hyoristicin.com
   url: https://hyoristicin.com
