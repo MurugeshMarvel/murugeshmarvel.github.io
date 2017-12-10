@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>About</title>
-<meta name="description" content="My Personal Blog">
+<title>TF</title>
+<meta name="description" content="Tensorflow - Getting Started">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://localhost:3000/about/">
+<link rel="canonical" href="http://localhost:3000/tf-tutorial/">
 <link rel="alternate" type="application/rss+xml" title="Murugesh Marvel" href="http://localhost:3000/feed.xml" />
 
 <script>
@@ -51,30 +51,124 @@
 
 <main class="main-container">
   <div class="container">
-    <article role="article" class="page card">
+    <article role="article" class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">TF</h1>
+      <em class="post-meta">
+        <time>Dec 9, 2017</time>
+      </em>
+    </header>
 
-  <div class="post-content">
-    <p><br /></p>
-<h3 id="hi">Hi,</h3>
+    <div class="post-content">
+      
+      <h1 id="tensorflow---getting-started">Tensorflow - Getting Started</h1>
 
-<p>This is <strong>Murugesan</strong>, welcome to my blog. To be brief, this blog will contain some of my experience, the knowledge that I gather from several people, situation,.etc.. and several other fun and exciting things. Hope you will get useful by my blog. Let me also make some basic description about me.</p>
+<pre><code>import tensorflow as tf
+</code></pre>
 
-<ul>
-  <li>Adamant</li>
-  <li>Lover travelling, probably wandering</li>
-  <li>Loves Adventures</li>
-  <li>Reserved</li>
-  <li>An Intelligent Lier</li>
-  <li>Visionary</li>
-  <li>Thinker</li>
-  <li>Technologist, Programmer, Engineer</li>
-  </ul>
-<p><em>etc..</em>
-Apart from all this I am a <strong>person who choose less travelled path (may be not travelled)</strong>. My blog will mostly contain posts from Technology, Programming, Artificial Intelligence (<em>Saying AI, I am AI programmer good in Machine Learing, Computer Vision, Natural Language processing and passionate on Cognitive Computation and Intelligence</em>) and also on some philosophical view of Technology.</p>
+<h3 id="computational-graph">Computational Graph</h3>
+
+<pre><code>#Building Computation graph
+node1 = tf.constant(3.0, dtype=tf.float32)
+node2 = tf.constant(4.0)
+print(node1, node2)
+</code></pre>
+
+<pre><code>(&lt;tf.Tensor 'Const:0' shape=() dtype=float32&gt;, &lt;tf.Tensor 'Const_1:0' shape=() dtype=float32&gt;)
+</code></pre>
+
+<pre><code>#Running Computation graph
+sess = tf.Session()
+print(sess.run([node1, node2]))
+</code></pre>
+
+<pre><code>[3.0, 4.0]
+</code></pre>
+
+<h4 id="adding-constants">Adding Constants</h4>
+
+<pre><code>node3 = tf.add(node1, node2)
+print ("node3:", node3)
+print "sess.run(node3)",sess.run(node3)
+</code></pre>
+
+<pre><code>('node3:', &lt;tf.Tensor 'Add_2:0' shape=() dtype=float32&gt;)
+sess.run(node3) 7.0
+</code></pre>
+
+<h3 id="accepting-external-inputs---placeholders">Accepting External Inputs - Placeholders</h3>
+
+<pre><code>a = tf.placeholder(tf.float32)
+b = tf.placeholder(tf.float32)
+adder_node = a +b
+</code></pre>
+
+<pre><code>print sess.run(adder_node,{a:4,b:9.1})
+</code></pre>
+
+<pre><code>13.1
+</code></pre>
+
+<pre><code>print sess.run(adder_node,{a:[3,5],b:[4,8]})
+</code></pre>
+
+<pre><code>[  7.  13.]
+</code></pre>
+
+<h3 id="complexing-operations-using-placeholders">Complexing operations using placeholders</h3>
+
+<pre><code>add_and_triple = adder_node * 3.
+print sess.run(add_and_triple, {a:[4,6],b:[9,1]})
+</code></pre>
+
+<pre><code>[ 39.  21.]
+</code></pre>
+
+<h2 id="variables">Variables</h2>
+
+<pre><code>w = tf.Variable([.3],dtype=tf.float32)
+b = tf.Variable([-.3], dtype=tf.float32)
+x = tf.placeholder(tf.float32)
+linear_model = w * x +b
+</code></pre>
+
+<pre><code>init = tf.global_variables_initializer()
+sess.run(init)
+</code></pre>
+
+<pre><code>print sess.run(linear_model, {x:[1,2,3,4]})
+</code></pre>
+
+<pre><code>[ 0.          0.30000001  0.60000002  0.90000004]
+</code></pre>
+
+<h4 id="loss-function">Loss Function</h4>
+
+<pre><code>y = tf.placeholder(tf.float32)
+squared_deltas = tf.square(linear_model - y)
+loss = tf.reduce_sum(squared_deltas)
+print sess.run(loss, {x:[1,2,3,4], y:[0,-1,-2,-3]})
+</code></pre>
+
+<pre><code>23.66
+</code></pre>
+
+<h5 id="reassigning-the-variable-to-minimise-loss">Reassigning the Variable to minimise loss</h5>
+
+<pre><code>new_w = tf.assign(w,[-1.])
+new_b = tf.assign(b,[1.])
+sess.run([new_w, new_b])
+print(sess.run(loss, {x:[1,2,3,4],y:[0,-1,-2,-3]}))
+</code></pre>
+
+<pre><code>0.0
+</code></pre>
+
+    </div>
+
+    
 
   </div>
 
