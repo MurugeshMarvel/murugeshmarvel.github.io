@@ -5,9 +5,24 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Dec 2017 10:19:38 +0530</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2017 10:19:38 +0530</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2017 11:00:37 +0530</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2017 11:00:37 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Overview of Programming</title>
+        <description>&lt;p&gt;Seriously, I am not a die-hard programmer but I code for making my Algorithms works and I like it. In this era of digitalisation, learning programming is one of the priliminary one to absorb and understand the dynamically evolving world. Different people have different people reason for programming&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Dec 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:3000/blog/2017/Overview-of-Programming/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2017/Overview-of-Programming/</guid>
+        
+        
+        <category>Coding</category>
+        
+        <category>General</category>
+        
+      </item>
     
       <item>
         <title>Introduction</title>
