@@ -5,136 +5,33 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Dec 2017 15:01:24 +0530</pubDate>
-    <lastBuildDate>Sat, 09 Dec 2017 15:01:24 +0530</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2017 10:19:38 +0530</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2017 10:19:38 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>TF</title>
-        <description>&lt;h1 id=&quot;tensorflow---getting-started&quot;&gt;Tensorflow - Getting Started&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;import tensorflow as tf
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;computational-graph&quot;&gt;Computational Graph&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;#Building Computation graph
-node1 = tf.constant(3.0, dtype=tf.float32)
-node2 = tf.constant(4.0)
-print(node1, node2)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;(&amp;lt;tf.Tensor 'Const:0' shape=() dtype=float32&amp;gt;, &amp;lt;tf.Tensor 'Const_1:0' shape=() dtype=float32&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;#Running Computation graph
-sess = tf.Session()
-print(sess.run([node1, node2]))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;[3.0, 4.0]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;adding-constants&quot;&gt;Adding Constants&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;node3 = tf.add(node1, node2)
-print (&quot;node3:&quot;, node3)
-print &quot;sess.run(node3)&quot;,sess.run(node3)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;('node3:', &amp;lt;tf.Tensor 'Add_2:0' shape=() dtype=float32&amp;gt;)
-sess.run(node3) 7.0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;accepting-external-inputs---placeholders&quot;&gt;Accepting External Inputs - Placeholders&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;a = tf.placeholder(tf.float32)
-b = tf.placeholder(tf.float32)
-adder_node = a +b
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;print sess.run(adder_node,{a:4,b:9.1})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;13.1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;print sess.run(adder_node,{a:[3,5],b:[4,8]})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;[  7.  13.]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;complexing-operations-using-placeholders&quot;&gt;Complexing operations using placeholders&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;add_and_triple = adder_node * 3.
-print sess.run(add_and_triple, {a:[4,6],b:[9,1]})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;[ 39.  21.]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;variables&quot;&gt;Variables&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;w = tf.Variable([.3],dtype=tf.float32)
-b = tf.Variable([-.3], dtype=tf.float32)
-x = tf.placeholder(tf.float32)
-linear_model = w * x +b
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;init = tf.global_variables_initializer()
-sess.run(init)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;print sess.run(linear_model, {x:[1,2,3,4]})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;[ 0.          0.30000001  0.60000002  0.90000004]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;loss-function&quot;&gt;Loss Function&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;y = tf.placeholder(tf.float32)
-squared_deltas = tf.square(linear_model - y)
-loss = tf.reduce_sum(squared_deltas)
-print sess.run(loss, {x:[1,2,3,4], y:[0,-1,-2,-3]})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;23.66
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&quot;reassigning-the-variable-to-minimise-loss&quot;&gt;Reassigning the Variable to minimise loss&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;new_w = tf.assign(w,[-1.])
-new_b = tf.assign(b,[1.])
-sess.run([new_w, new_b])
-print(sess.run(loss, {x:[1,2,3,4],y:[0,-1,-2,-3]}))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;0.0
-&lt;/code&gt;&lt;/pre&gt;
+        <title>Introduction</title>
+        <description>&lt;p&gt;Hi there, Myself &lt;strong&gt;Murugesan&lt;/strong&gt;. Its kind of late start for me in writing blogs, after I left hands from my first blog. Before starting my first blog, I was like thinking that writing blog and maintaining blog will be a piece of cake. But after I encounter more time loss in my first blog, I left the hope on blogging. But now thinking that this is the correct time to start blogging my ideas, works, experience,..etc. Initially if you want to know about me, you can refer &lt;a href=&quot;https://murugeshmarvel.github.io/about/&quot;&gt;here&lt;/a&gt;. During my college day I explored lot in both technical and non-technical stuffs, some are pretty awesome to showcase and others won’t be that much interesting. After my college I worked and contributed for several AI startups and gathered new and exiting experience which I would also share in this blog.
+This blog will contains many tutorials, experiments and other information related to the following stuffs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming&lt;/li&gt;
+&lt;li&gt;Algorithms&lt;/li&gt;
+&lt;li&gt;Artificial Intelligence&lt;/li&gt;
+&lt;li&gt;Travelling &amp;amp; Exploring&lt;/li&gt;
+&lt;li&gt;Entrepreneur's Guide&lt;/li&gt;
+&lt;li&gt;Philosophy&lt;/li&gt;
+&lt;ul&gt;
+and may be more.
+&lt;/ul&gt;&lt;/ul&gt;
 </description>
         <pubDate>Sat, 09 Dec 2017 00:00:00 +0530</pubDate>
-        <link>http://localhost:3000/tf-tutorial/</link>
-        <guid isPermaLink="true">http://localhost:3000/tf-tutorial/</guid>
+        <link>http://localhost:3000/blog/2017/Introduction/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2017/Introduction/</guid>
         
         
-      </item>
-    
-      <item>
-        <title>Hi Everyone</title>
-        <description>&lt;p&gt;Hello Everyone, I know this is late&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Dec 2017 00:00:00 +0530</pubDate>
-        <link>http://localhost:3000/blog/2017/Hi-Everyone/</link>
-        <guid isPermaLink="true">http://localhost:3000/blog/2017/Hi-Everyone/</guid>
+        <category>Welcome</category>
         
-        <category>welcome</category>
-        
-        <category>personal</category>
-        
-        
-        <category>welcome</category>
+        <category>Personal</category>
         
       </item>
     
