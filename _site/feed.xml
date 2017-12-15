@@ -5,13 +5,22 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Dec 2017 11:00:37 +0530</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2017 11:00:37 +0530</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2017 18:52:53 +0530</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2017 18:52:53 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Overview of Programming</title>
-        <description>&lt;p&gt;Seriously, I am not a die-hard programmer but I code for making my Algorithms works and I like it. In this era of digitalisation, learning programming is one of the priliminary one to absorb and understand the dynamically evolving world. Different people have different people reason for programming&lt;/p&gt;
+        <description>&lt;p&gt;Seriously, I am not a die-hard programmer but I code for making my Algorithms works and I like it. In this era of digitalisation, learning programming is one of the priliminary one which helps one to absorb and understand the dynamically evolving world. Different people have different people reason for their interest in programming. In world of programming, there are several different programming languages and each have their own advantages and disadvantages. The typical 256 programming languages are mentioned in this &lt;a href=&quot;https://dzone.com/articles/big-list-256-programming&quot;&gt;Dzone Page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most people start their programming journey from &lt;a href=&quot;https://en.wikipedia.org/wiki/C_(programming_language)&quot;&gt;C Language&lt;/a&gt;, then followed with &lt;a href=&quot;&quot;&gt;C++&lt;/a&gt;. C++ will help us in understanding the fundamentals of Object Oriented Programming concept shortly known as OOPS. OOPS refined the possibilities of programming. Having OOPS as base several programming languages came into existence like JAVA, PYTHON, RUBY, GO,..etc. Each one has its own use cases and functionalities. As I told before that I am not a Die-Hard programmer and I have knowledge on programming in some limited domains, I can’t be more generic on this. My works are mostly in Python, Ruby, C++,..etc. Let me first project the domains I am familiar with and the programming concepts that will be covered in this post will be mostly from these domains.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Web-Development &lt;/li&gt;
+&lt;li&gt; Data Analysis &lt;/li&gt;
+&lt;li&gt; Machine Learning &lt;/li&gt;
+&lt;li&gt; Shell scripting &lt;/li&gt;
+&lt;li&gt; Deep Learning &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 14 Dec 2017 00:00:00 +0530</pubDate>
         <link>http://localhost:3000/blog/2017/Overview-of-Programming/</link>
