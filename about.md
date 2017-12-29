@@ -19,4 +19,4 @@ This is **Murugesan**, welcome to my blog. To be brief, this blog will contain s
   <li>Technologist, Programmer, Engineer</li>
   </ul>
 *etc..*
-Apart from all this I am a **person who choose less travelled path (may be not travelled)**. My blog will mostly contain posts from Technology, Programming, Artificial Intelligence (*Saying AI, I am AI programmer good in Machine Learing, Computer Vision, Natural Language processing and passionate on Cognitive Computation and Intelligence*) and also on some philosophical view of Technology.
+Apart from all this I am a **person who choose less travelled path (may be not travelled path)**. My blog will mostly contain posts from Technology, Programming, Artificial Intelligence (*Regarding AI, I am AI programmer good in Machine Learing, Computer Vision, Natural Language processing and passionate on Cognitive Computation and Intelligence*) and also on some philosophical view of Technology.

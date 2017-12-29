@@ -5,9 +5,141 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Dec 2017 18:52:53 +0530</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2017 18:52:53 +0530</lastBuildDate>
+    <pubDate>Fri, 29 Dec 2017 14:59:03 +0530</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2017 14:59:03 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Working With GIT</title>
+        <description>&lt;p&gt;If you are a software developer, its mandatory to know what &lt;strong&gt;git&lt;/strong&gt; is. I hope this page will make you understand what git and how it will be useful to you. Before getting into practical tutorial of GIT, Let me first get you with some boring histroy and other content. When Linus Torvald was developing “Linux”, he find very difficult to manage several things like different versions of release, collaborators for the projects,.. and more. So he thought of making a framework that can address this problem. After on, he came up with a solution and named that with his behavior &lt;strong&gt;GIT&lt;/strong&gt; (git means unpleasant man). And later on several web platform emerged to help developers to help in collaboration, version control and maintaining their projects with help of git. (Eg: github, gitlab..etc..).&lt;/p&gt;
+
+&lt;p&gt;This tutorial will make you in learning GIT in basics and intermediate level for working on open source projects and contributing to some libraries,..etc. There are 2 main prerequisites before starting the tutorial.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; To have a Github account. https://github.com/join &lt;/li&gt;
+
+&lt;li&gt; To install git in your working system. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To check whether GIT is installed in your system, type&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git –version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;and make sure the terminal gives you the version number of the git installed (Like shown in the image below)&lt;/em&gt;
+&lt;img src=&quot;/images/working_with_git/git_version.png&quot; alt=&quot;git version&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two ways in starting a Github project.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-creating-a-new-repository-in-github-and-cloning-it-in-your-local-system&quot;&gt;1. Creating a new repository in Github and Cloning it in your local system.&lt;/h3&gt;
+
+&lt;p&gt;Initially for creating a git project, login into your Github account and visit to this link. You will be asked for details for your projects as shown in the below image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/new_repo.png&quot; alt=&quot;git cloning link&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The details to be filled are as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; &lt;bold&gt;Repository Name :&lt;/bold&gt; Name of your repository with which your project will be reffered.&lt;/li&gt;
+
+&lt;li&gt; Description: A short description of your project which will let other developer to look into your project.&lt;/li&gt;
+
+&lt;li&gt; Public (or) Private: You can select any one of this option. If you make your repository as Public, it will visible to all developers and anyone can contribute for your repository. The other option is making your repository Private, my doing this you can prevent people to view your repository and codes but you have to pay for making your repository as Private one. If you are a student, you can try for Github Student Developer Pack [https://education.github.com/pack] by which you can make your repository Private without paying money and also you get more free goodies with it.&lt;/li&gt;
+
+&lt;li&gt; Initialize your Repository with a README: README.md is one the important file for project. This file projects what exactly your project is?. Developing a good README.md file will add more value to your repository. You can refer this post for learning how to develope a cool README.md file.&lt;/li&gt;
+
+&lt;li&gt; Adding .gitignore file: This file tell git to not include some files to the remote repository. We will cover .gitignore in the next part of this tutorial. &lt;/li&gt;
+
+&lt;li&gt; Adding License file: If you work on a really serious project, and to protect your codes being used by other or commercial purpose,..etc.you can add a license file for your repository. There are several Types of license that can be applied for your project depending on its type, you can refer those types in this site.&lt;/li&gt;
+
+&lt;/ol&gt;
+
+&lt;p&gt;After providing relevant details you can click “Create Repository” for creating your repository.&lt;/p&gt;
+
+&lt;p&gt;Then to add working files and codes of your project to your repository, you need to clone your repository in your local system.&lt;/p&gt;
+
+&lt;p&gt;For cloning a repository, you need to get the https link of your project as shown in the below image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/cloning_link.png&quot; alt=&quot;git cloning link&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After copying the Https link, go to your terminal and type&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone &amp;lt;Https Link&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;as shown in the image below&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/clone_repo.png&quot; alt=&quot;git cloning repo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then if you get into the repository folder newly created, you can see the README.md for your repository as show in the below image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/clone_repo.png&quot; alt=&quot;git cloning repo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Great, we had successfully cloned our repository in our local System and further we can add or change files in the repository which we will discuss after after discussing on the second method of starting a Github Project.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-creating-local-project-folder-and-link-with-the-github-repository&quot;&gt;2. Creating local project folder and link with the github repository.&lt;/h3&gt;
+
+&lt;p&gt;Initially creat a Github repository as we done in the first step. Then create a new folder in your local system. Now the folder you had created is just a normal folder but you need a git supported folder for linking to your repository. So you can initialise git in the particular folder using the following command after getting into the main project folder.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I had created a folder name “git_tutorial” and initialised git in that folder as shown in the below image&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/git_init.png&quot; alt=&quot;git init&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now this folder is just empty one, let we link remote repository with this folder using the following command&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote add origin &amp;lt;https link&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The https link is the link of your github repository which is needed to be linked. The origin refers to the local folder. Even after adding the remote repository the files are not update. So for updating the files the following command is used.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git pull origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The master here refers to the branch name of the remote repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/git_pull.png&quot; alt=&quot;git pull&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Great, We had successfully linked our local project folder with the remote repository and pulled the README.md file from our repository.&lt;/p&gt;
+
+&lt;p&gt;Now let us start making some changes in the README.md file push back to the repository.&lt;/p&gt;
+
+&lt;p&gt;Let me some lines to the README.md file in the local project folder. Then this changes will be shown only in the local file and not in the remote file. For updating this change to the remote repository. We have some series of steps to be followed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/change1.png&quot; alt=&quot;git change1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After changing the file, type the following command in the terminal&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git status
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will see the file name that is been change had been marked in red color. Further we add the file to our stack for committing using the following command.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add README.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In case if you change multiple file and want to add all the file, you can use the following command.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;now when check “git status”, will see that the file had been marked in green color as shown in the below image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/git_add.png&quot; alt=&quot;git add&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then we need to commit the file for push using the following command.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git commit -am “&amp;lt;Reason for changing the file&amp;gt;”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Committing a file is necessary so that people will come to know why you changed the file. After successfully committing a file, when you check for “git status” you will see no error messages and so you file is ready to be pushed to the remote repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/git_commit.png&quot; alt=&quot;git commit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For pushing a committed file to the remote repository type the following command in the terminal.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will be asked with the username and password for push the file. After the your file will be pushed to repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/git_push.png&quot; alt=&quot;git push&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And you can check the github repository for verification.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/working_with_git/changes_checked.png&quot; alt=&quot;git changes_checked&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, we know some basics on how to work with git. In next part you will get to know things like branching, pull request and many other.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Dec 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:3000/blog/2017/Working-with-GIT/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2017/Working-with-GIT/</guid>
+        
+        
+        <category>Welcome</category>
+        
+        <category>Git</category>
+        
+      </item>
     
       <item>
         <title>Overview of Programming</title>
@@ -21,6 +153,8 @@
 &lt;li&gt; Shell scripting &lt;/li&gt;
 &lt;li&gt; Deep Learning &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Let me start with Web-Development, world of web had seen many drastic changes in the last 5 year and is being updated dynamically in a daily. With the advent of open-source contribution, Different libraries and tools are been developed and maintained by several open source contributor.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Dec 2017 00:00:00 +0530</pubDate>
         <link>http://localhost:3000/blog/2017/Overview-of-Programming/</link>
