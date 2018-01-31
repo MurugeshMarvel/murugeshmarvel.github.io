@@ -5,9 +5,53 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Dec 2017 12:08:05 +0530</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2017 12:08:05 +0530</lastBuildDate>
+    <pubDate>Wed, 31 Jan 2018 15:11:18 +0530</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 15:11:18 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Machine Learning - Explained</title>
+        <description>&lt;p&gt;Its easy to guess from the name &lt;strong&gt;Machine Learning&lt;/strong&gt;, which implies some process related to learning process of machines. And Nowdays people are really curious to learn Machine learning by witnessing the changes that it bought. This blog is not for some programming geeks or for people with computer science background. I will try my best to explain this concept as low as possible.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Machine learning is field in Artificial Intelligence which allow machines to learn from the experience(data) rather than being hard-coded.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Learning ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The most easy way to grap the learning concept without stepping to the cognitive science is by considering some real-time example. Consider a Scenario, you got a new job and you are leaving for the new-office from your house for the first time. Possibly, you wil
+&lt;strong&gt;But are they are not learning before this ML concept?&lt;/strong&gt; - Not really!. before the time, all the systems are explicity programmed with rules and there is no possible ways for the system to learn.
+&lt;strong&gt;Do Machines Really have to Learn?&lt;/strong&gt; - If you want your machine to assist you in a better possible way than the rules based thing, you have to let your machine to learn, letting it to know your data for optimising its assistance.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jan 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:3000/blog/2018/Machine-Learning-Explained/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2018/Machine-Learning-Explained/</guid>
+        
+        
+        <category>General</category>
+        
+        <category>Machine_learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Community for AI people on Tamilnadu</title>
+        <description>&lt;p&gt;Tamilnadu is always known for its cultural heritage and people here are always a kind of crazy guys in different aspects. Maybe on current scenario, the unstable government is also on the top of list, probably we can skip this now. But to be honest people here refuse to adapt to new technologies, Artificial Intelligence is not an exception. I am an AI developer specialized in Computer vision, contributing for startups and open-source projects, I am an AI enthusiast from my high school days and a practitioner in my college days and one of the consequence is that my facebook, twitter, linkedin,..etc updates are fully filled with things related to AI, AGI, Cognitive Science, Singularity,.. and several other crazy pieces of stuff. When I was about to decide my future step on AI after finishing my undergrad degree, many people (probably everyone whom I talked) recommended me to go for my masters in a reputable college possibly abroad but at that time I should had thought why? instead, I conventionally thought How can I able to get to those colleges, what should I be having in my SOP?..etc. I had been decided to use rest 1 year in my college to learn several things in the field, build a network with people in this domain. I approached several professors, the industrial people working on AI, but where I ended up is connecting through several researchers in AI through facebook. Thanks to several FB friends, blogs, tutorials,.. I developed a good amount of knowledge and skill set to work in AI and I am able to follow updates easily. But as people say, the world suddenly seems to be changed when you come out from college, yeah it happened for me after I joined a startup in Chennai and began to adapt to the modern-tech life in Chennai. Started to attend several meetups, discussions, gatherings etc..But even in Chennai, the tech place of Tamilnadu, the paradise for startups,..the beauty of AI and its potential was and is still not understood. People here are just been fascinated by AI and want to exploit AI to maximize their profit which is not bad but is like using rolls Royce to garbage carrier. but what about others who are from the rural side of Tamilnadu, even students from several part of Chennai have no idea what the AI all about and how people around the world are adapting to it. There are still many Ramanujan been born in Tamilnadu and due to lack of awareness and guidance, they stay where they are and are unable to realize their potential and that of AI(mostly imposed by society). There are several engineering students who don’t know the fundamentals mathematics and even if they knew they lacking with the practical application, even I was like this once before but learning statistical principles, coding programs to gather and clean data, developing machine learning model, neural networks, optimising it,..etc. opened several possibilities of learning algebra, differential calculus in real life. And parallel, Intelligence system can help you in automating numerous routine and repeated things and saves several.hours which can be put into more useful things . People around the world had already adapted to these technologies and we are still waiting for big giants to do pull these things to us once its out-dated. There are still many Chennai based startups working on several disrupting technologies in the aim of changing the place we live, but society here fails to motivate them and the most saddest thing is that people don’t even understand what they are working on. 
+Now I clearly understand that there is no scarcity of people working on AI in Chennai but thing is that they are scattered and the flow of knowledge is obstructed due to lack of a proper channel for discourse. And moreover, Chennai is not Tamilnadu, its a small portion of it and there are still several districts where both crazy and coolest brains can be found. Sorry for putting several boring words, let me be precise, I strictly believe Artificial Intelligence is going to power the evolution of human race at an unprecedented rate n future and as every state has the rights in cherishing the outcomes they also have the responsibility in contributing to it, not all the things should be done by people of silicon valley or people acquired by silicon valley. I cannot say that I will be able to push the boundaries of technology in my state but I am gonna try as hell to do so. who knows, maybe if we join hands and work together we will be able to do it. Also, I need to add that we (Murugesh, Suriyadeepan, Syed, Aquid &amp;amp; Selva) with help of several other friends started a Community for the purpose that I stated before and named it as “TN-AI Guild”. We had also Inaugurated this community in two main districts of TN namely Chennai &amp;amp; Coimbatore also had a meetup for discussing “Capsule Network”. Several AI-Startups and Professionals are supporting us a lot on our mission. We have people good in domain expertise, shining in their own field, cool and awesome people on advisory board, yet we need some active people on organizing things. We are currently in bootstrapping stage yet to fix things and plan.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:3000/blog/2018/Community-for-AI-People-on-Tamilnadu/</link>
+        <guid isPermaLink="true">http://localhost:3000/blog/2018/Community-for-AI-People-on-Tamilnadu/</guid>
+        
+        
+        <category>TN-AI</category>
+        
+        <category>General</category>
+        
+        <category>Artificial_Intelligence</category>
+        
+        <category>Tamilnadu</category>
+        
+      </item>
     
       <item>
         <title>Working With GIT</title>
@@ -144,6 +188,26 @@
       <item>
         <title>Overview of Programming</title>
         <description>&lt;p&gt;Seriously, I am not a die-hard programmer but I code for making my Algorithms works and I like it. In this era of digitalisation, learning programming is one of the priliminary one which helps one to absorb and understand the dynamically evolving world. Different people have different people reason for their interest in programming. In world of programming, there are several different programming languages and each have their own advantages and disadvantages. The typical 256 programming languages are mentioned in this &lt;a href=&quot;https://dzone.com/articles/big-list-256-programming&quot;&gt;Dzone Page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in getting placed in some cool cooperates like Google, Facebook, Microsoft,.etc.. Then you must select one of the cool programming Language and practise it. People there in those cooperate doesn’t actually much care about what programming language you know but they make sure you are good with the following things (May be added with some):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Problem Solving Ability &lt;/li&gt;
+&lt;li&gt; Algorithm &amp;amp; Data Structures &lt;/li&gt;
+&lt;li&gt; Experience on Programming &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As these points hadn’t scored any programming languages, that doesn’t mean you can select any programming language randomly and practise. Selecting a good programming language for your application is a critical one it indirectly places a major part in getting though some tough interviews. Just look at the pre-defined points for getting into some cool coperates, “Problem solving ability” totally independent on the type of programming languages, Whatever language you choose, its your mental training and focus that actual makes you good in this criteria. But remaining two mainly depends on the language you choose, you may read some 400 or 600 pages books on “Algorithm &amp;amp; Data Strutures” or separate books on each topics but what actually makes you good in this topics is directly applying it and that actually means you need a programming language that facilitates you in doing so and most particularly you should be comfortable with that language. Following that, to shine in “Experience on work” criteria who should really live a typical programmers life for atleast 6 months and several startups concerns will help you a lot in gathering more Experience on the field, in this context and as a founder of my own startup, I need to add that I am preparing a separate blog on “Learning from Startups”. And also don’t think getting into a startup is a easy task, you can’t join as a trainee in any startup and they don’t have both time and funds for supporting your learning. People in startups ask for coders having proficiency in a particularly language and yeah if you choose some poor language with less amount of application you can’t get any works even as a free lanchers and you can’t get a startup needing programmers in that language.&lt;/p&gt;
+
+&lt;p&gt;So, If you want me to Recommend some best programming languages, Here are some of the languages I suggest. you can learn any one of this.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+  &lt;li&gt;Java&lt;/li&gt;
+  &lt;li&gt;Swift&lt;/li&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I am going to describe more on each languages. Let me start from last, &lt;a href=&quot;&quot;&gt;RUBY&lt;/a&gt; is a simple and good but been popular maily because of its framework named &lt;a href=&quot;&quot;&gt;Ruby on Rails&lt;/a&gt; which is one of the best and cool framework for web development with lot of community support, if you have passion of becoming a good web developer(backend) probably this language is for you. Then comes SWIFT, favourite language for apple. This language is used create apps for both iphones and ipads. Swift developers are very rare and wanted by numerous startups and even by MNCs. There are good tutorials, documentations and communities available online which you can use in learning this, but don’t you need a Macbook for working on this language. Next, JAVA is one of the oldest and most accepted languages. There are several application of Java including Android. Even though there are more Java developers, still companies these expert in this in high demand. Here comes my favourite, PYTHON is one of the coolest and most used languages in world. Several Companies including python have most of their application written in python. When your are focused on Algorithms, Analytics, Science,..then Python is for you. Most of the programs in Machine Learning, Data Analytics are written Python. Python can also adapted for web development with the advent of two awesome framework name Django and Flask. Learning Python is made Simple with several Tutorials, documentations, Communities Supports,.etc.. There will be always oppurtunity for python developers in several areas. Atlast, JAVASCRIPT derived from Java is a awesome language from front-end Designers. It mostly run in client side making it more robust and reliable. Whatever website you crawl, Javascript plays a major part in that. Nowdays, Javascript is also being used for backend programming in the name of NodeJS.&lt;/p&gt;
 
 &lt;p&gt;Most people start their programming journey from &lt;a href=&quot;https://en.wikipedia.org/wiki/C_(programming_language)&quot;&gt;C Language&lt;/a&gt;, then followed with &lt;a href=&quot;&quot;&gt;C++&lt;/a&gt;. C++ will help us in understanding the fundamentals of Object Oriented Programming concept shortly known as OOPS. OOPS refined the possibilities of programming. Having OOPS as base several programming languages came into existence like JAVA, PYTHON, RUBY, GO,..etc. Each one has its own use cases and functionalities. As I told before that I am not a Die-Hard programmer and I have knowledge on programming in some limited domains, I can’t be more generic on this. My works are mostly in Python, Ruby, C++,..etc. Let me first project the domains I am familiar with and the programming concepts that will be covered in this post will be mostly from these domains.&lt;/p&gt;
 &lt;ul&gt;
