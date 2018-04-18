@@ -5,8 +5,8 @@
     <description>My Personal Blog</description>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Jan 2018 15:11:18 +0530</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2018 15:11:18 +0530</lastBuildDate>
+    <pubDate>Wed, 18 Apr 2018 14:54:26 +0530</pubDate>
+    <lastBuildDate>Wed, 18 Apr 2018 14:54:26 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -16,11 +16,27 @@
   &lt;p&gt;Machine learning is field in Artificial Intelligence which allow machines to learn from the experience(data) rather than being hard-coded.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;What is Learning ?&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;what-is-learning-&quot;&gt;What is Learning ?&lt;/h4&gt;
 
-&lt;p&gt;The most easy way to grap the learning concept without stepping to the cognitive science is by considering some real-time example. Consider a Scenario, you got a new job and you are leaving for the new-office from your house for the first time. Possibly, you wil
-&lt;strong&gt;But are they are not learning before this ML concept?&lt;/strong&gt; - Not really!. before the time, all the systems are explicity programmed with rules and there is no possible ways for the system to learn.
-&lt;strong&gt;Do Machines Really have to Learn?&lt;/strong&gt; - If you want your machine to assist you in a better possible way than the rules based thing, you have to let your machine to learn, letting it to know your data for optimising its assistance.&lt;/p&gt;
+&lt;p&gt;The most easy way to grap the learning concept without steping to the cognitive science is by considering some real-time example. Consider a Scenario, you got a new job and you are leaving to the new-office from your house for the first time. Possibly, you will take some long time for the first(let the time be &lt;strong&gt;x&lt;/strong&gt;). Then eventually after some days the time for you to reach office from your home will definitely be less than the initial time &lt;strong&gt;x&lt;/strong&gt;. What actually happened in the meanwhile is that you learned some optimal routes for your office with several experience over several days. Cool!, hope the following example helped you in getting to know about learning and also from this example you will get to know that learning happens only with experience.&lt;/p&gt;
+
+&lt;h4 id=&quot;working-machine&quot;&gt;Working Machine&lt;/h4&gt;
+&lt;p&gt;The word Machines literally means some system designed to do some tasks, it may be a robot, a Personal Computer, Car,.etc. The machines that operates by Mechanical Power are soo limited and narrowed in their operation, its just some movements of some pullies and lever inside it due to some physical principles and works on why it was designed. And in contrast, the electronical Machines had came into existance or been fused with the Mechanical ones by promising both automation and optimization of the task it meant to work. But, how this electronical system know how to operate a task?. Well there is where our Programming comes into play. &lt;strong&gt;Progamming&lt;/strong&gt; actually got many sides, but the core objective is to solve a problem. Whether it is C, C++, Embedded C, Java, Javascipt, Python, Ruby, Go, Lua,..whatever that language is, its just been used to solve a problem with different approach and design. You can refer this &lt;img src=&quot;&quot; alt=&quot;link&quot; /&gt; to know more on programming and programming languages.&lt;/p&gt;
+
+&lt;h4 id=&quot;rule-based-programming&quot;&gt;Rule Based Programming&lt;/h4&gt;
+&lt;p&gt;Well I told you we are avoiding machine being hard-coded by Machine Learning. Rule based programming is some that is hard-coded. Take an example Scenario, you have a problem of finding the price of the water bottle that varies on their quantity. This problem can we easily solved given the Price list with respect to Litres. Then just make a program with if condition like the following.(following example is in the python syntax)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;if (litre == 1):
+  price = 20
+elif (litre == 2):
+  price = 40
+elif (litre == 3):
+  price = 60
+elif (litre == 4):
+  price = 80
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Do Machines Really have to Learn?&lt;/strong&gt; - If you want your machine to assist you in a better possible way than the rules based thing, you have to let your machine to learn, letting it to know your data for optimising its assistance.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Jan 2018 00:00:00 +0530</pubDate>
         <link>http://localhost:3000/blog/2018/Machine-Learning-Explained/</link>
